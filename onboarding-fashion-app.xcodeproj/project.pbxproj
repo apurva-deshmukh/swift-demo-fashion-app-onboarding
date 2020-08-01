@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE8AB85624D4A5EA00894345 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB85524D4A5EA00894345 /* AppDelegate.swift */; };
+		EE8AB85824D4A5EA00894345 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB85724D4A5EA00894345 /* SceneDelegate.swift */; };
+		EE8AB85A24D4A5EA00894345 /* OnboardingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB85924D4A5EA00894345 /* OnboardingController.swift */; };
+		EE8AB85D24D4A5EA00894345 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE8AB85B24D4A5EA00894345 /* Main.storyboard */; };
+		EE8AB85F24D4A5EB00894345 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE8AB85E24D4A5EB00894345 /* Assets.xcassets */; };
+		EE8AB86224D4A5EB00894345 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE8AB86024D4A5EB00894345 /* LaunchScreen.storyboard */; };
+		EE8AB86B24D5092E00894345 /* OnboardingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB86A24D5092E00894345 /* OnboardingItem.swift */; };
+		EE8AB86F24D50A0F00894345 /* QuoteCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB86E24D50A0F00894345 /* QuoteCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE8AB85224D4A5EA00894345 /* onboarding-fashion-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "onboarding-fashion-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE8AB85524D4A5EA00894345 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE8AB85724D4A5EA00894345 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EE8AB85924D4A5EA00894345 /* OnboardingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingController.swift; sourceTree = "<group>"; };
+		EE8AB85C24D4A5EA00894345 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE8AB85E24D4A5EB00894345 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE8AB86124D4A5EB00894345 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE8AB86324D4A5EB00894345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE8AB86A24D5092E00894345 /* OnboardingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingItem.swift; sourceTree = "<group>"; };
+		EE8AB86E24D50A0F00894345 /* QuoteCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteCollectionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE8AB84F24D4A5EA00894345 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE8AB84924D4A5EA00894345 = {
+			isa = PBXGroup;
+			children = (
+				EE8AB85424D4A5EA00894345 /* onboarding-fashion-app */,
+				EE8AB85324D4A5EA00894345 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE8AB85324D4A5EA00894345 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE8AB85224D4A5EA00894345 /* onboarding-fashion-app.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE8AB85424D4A5EA00894345 /* onboarding-fashion-app */ = {
+			isa = PBXGroup;
+			children = (
+				EE8AB86D24D509F800894345 /* View */,
+				EE8AB86C24D509EF00894345 /* Controller */,
+				EE8AB86924D5091E00894345 /* Model */,
+				EE8AB85524D4A5EA00894345 /* AppDelegate.swift */,
+				EE8AB85724D4A5EA00894345 /* SceneDelegate.swift */,
+				EE8AB85B24D4A5EA00894345 /* Main.storyboard */,
+				EE8AB85E24D4A5EB00894345 /* Assets.xcassets */,
+				EE8AB86024D4A5EB00894345 /* LaunchScreen.storyboard */,
+				EE8AB86324D4A5EB00894345 /* Info.plist */,
+			);
+			path = "onboarding-fashion-app";
+			sourceTree = "<group>";
+		};
+		EE8AB86924D5091E00894345 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EE8AB86A24D5092E00894345 /* OnboardingItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EE8AB86C24D509EF00894345 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EE8AB85924D4A5EA00894345 /* OnboardingController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EE8AB86D24D509F800894345 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EE8AB86E24D50A0F00894345 /* QuoteCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE8AB85124D4A5EA00894345 /* onboarding-fashion-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE8AB86624D4A5EB00894345 /* Build configuration list for PBXNativeTarget "onboarding-fashion-app" */;
+			buildPhases = (
+				EE8AB84E24D4A5EA00894345 /* Sources */,
+				EE8AB84F24D4A5EA00894345 /* Frameworks */,
+				EE8AB85024D4A5EA00894345 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "onboarding-fashion-app";
+			productName = "onboarding-fashion-app";
+			productReference = EE8AB85224D4A5EA00894345 /* onboarding-fashion-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE8AB84A24D4A5EA00894345 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Apurva Deshmukh";
+				TargetAttributes = {
+					EE8AB85124D4A5EA00894345 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = EE8AB84D24D4A5EA00894345 /* Build configuration list for PBXProject "onboarding-fashion-app" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE8AB84924D4A5EA00894345;
+			productRefGroup = EE8AB85324D4A5EA00894345 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE8AB85124D4A5EA00894345 /* onboarding-fashion-app */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE8AB85024D4A5EA00894345 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8AB86224D4A5EB00894345 /* LaunchScreen.storyboard in Resources */,
+				EE8AB85F24D4A5EB00894345 /* Assets.xcassets in Resources */,
+				EE8AB85D24D4A5EA00894345 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE8AB84E24D4A5EA00894345 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8AB85A24D4A5EA00894345 /* OnboardingController.swift in Sources */,
+				EE8AB86B24D5092E00894345 /* OnboardingItem.swift in Sources */,
+				EE8AB86F24D50A0F00894345 /* QuoteCollectionViewCell.swift in Sources */,
+				EE8AB85624D4A5EA00894345 /* AppDelegate.swift in Sources */,
+				EE8AB85824D4A5EA00894345 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE8AB85B24D4A5EA00894345 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE8AB85C24D4A5EA00894345 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE8AB86024D4A5EB00894345 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE8AB86124D4A5EB00894345 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE8AB86424D4A5EB00894345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE8AB86524D4A5EB00894345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE8AB86724D4A5EB00894345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28TYCU28PG;
+				INFOPLIST_FILE = "onboarding-fashion-app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apurvadeshmukh.onboarding-fashion-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE8AB86824D4A5EB00894345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28TYCU28PG;
+				INFOPLIST_FILE = "onboarding-fashion-app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.apurvadeshmukh.onboarding-fashion-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE8AB84D24D4A5EA00894345 /* Build configuration list for PBXProject "onboarding-fashion-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE8AB86424D4A5EB00894345 /* Debug */,
+				EE8AB86524D4A5EB00894345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE8AB86624D4A5EB00894345 /* Build configuration list for PBXNativeTarget "onboarding-fashion-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE8AB86724D4A5EB00894345 /* Debug */,
+				EE8AB86824D4A5EB00894345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE8AB84A24D4A5EA00894345 /* Project object */;
+}
